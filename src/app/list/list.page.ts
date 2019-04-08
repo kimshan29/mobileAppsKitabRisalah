@@ -32,24 +32,29 @@ export class ListPage implements OnInit {
 
   public dataDaftarIsi = [
     {
+      "no": 0,
+      "nama": "COVER & PENGANTAR PENERBIT",
+      "url": "cover"
+    },
+    {
       "no": 1,
       "nama": "MUKADDIMAH",
-      "url":"home"
+      "url": "home"
     },
     {
       "no": 2,
       "nama": "BAB I AQIDAH",
-      "url":"",
+      "url": "",
       "sub": [
         {
           "no": 2.1,
           "nama": "Rukun Islam",
-          "url":"info"
+          "url": "info"
         },
         {
           "no": 2.2,
           "nama": "Rukun Iman ",
-          "url":"home"
+          "url": "home"
         }
       ]
     },
@@ -59,7 +64,7 @@ export class ListPage implements OnInit {
       "sub": [
         {
           "no": 3.1,
-          "nama": "Wudhu",          
+          "nama": "Wudhu",
         },
         {
           "no": 3.2,
@@ -93,7 +98,7 @@ export class ListPage implements OnInit {
       "sub": [
         {
           "no": 4.1,
-          "nama": "Termasuk Adab adalah Ketaatan Hati",          
+          "nama": "Termasuk Adab adalah Ketaatan Hati",
         },
         {
           "no": 4.2,
@@ -107,15 +112,15 @@ export class ListPage implements OnInit {
     },
     {
       "no": 5,
-      "nama": "DO'A QUNUT SYAFI'IYYAH",     
+      "nama": "DO'A QUNUT SYAFI'IYYAH",
     },
     {
       "no": 6,
-      "nama": "CATATAN AKHIR/END NOTES",     
+      "nama": "CATATAN AKHIR/END NOTES",
     }
   ]
 
   ngOnInit() {
   }
- 
+
 }
