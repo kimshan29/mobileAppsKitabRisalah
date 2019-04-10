@@ -11,13 +11,16 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { DocumentViewer } from "@ionic-native/document-viewer/ngx";
 
+import { PdfViewerModule } from 'ng2-pdf-viewer';
+
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
   imports: [
     BrowserModule,
     IonicModule.forRoot(),
-    AppRoutingModule
+    AppRoutingModule,
+    PdfViewerModule
   ],
   providers: [
     StatusBar,

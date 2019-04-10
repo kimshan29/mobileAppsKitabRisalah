@@ -9,17 +9,26 @@ import { DocumentViewer, DocumentViewerOptions } from '@ionic-native/document-vi
 export class CoverPage implements OnInit {
 
   constructor(private document: DocumentViewer) { }
+  displayData: any = {
+    pdfSource: {
+      url: '../assets/Cover-Pengantar.pdf'
+    }
+  };
+
+  pdfSrc: string = '../../assets/Cover-Pengantar.pdf';
 
   ngOnInit() {
+    // const options: DocumentViewerOptions = {
+    //   title: 'Cover'
+    // }
+    // this.document.viewDocument('assets/Cover-Pengantar.pdf', 'application/pdf', options)
+
   }
 
 
   OpenPdf() {
     console.log("Test");
 
-    const options: DocumentViewerOptions = {
-      title: 'Cover'
-    }
-    this.document.viewDocument('assets/Cover-Pengantar.pdf', 'application/pdf', options)
+
   }
 }
